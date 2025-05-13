@@ -17,10 +17,12 @@ A voice-enabled chatbot using LangChain, OpenAI, and pyttsx3 for text-to-speech 
   ## File Structure
 
  langchain_voice_bot/
- │
- ├── .env # Environment variables (store your OpenAI API key here)
- ├── voice_bot.py # Main script to run the voice bot
- ├── requirements.txt # List of dependencies to install via pip
+ 
+   .env # Environment variables (store your OpenAI API key here)
+   
+   voice_bot.py # Main script to run the voice bot
+   
+   requirements.txt # List of dependencies to install via pip
 
 
 
