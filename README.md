@@ -24,14 +24,15 @@ A voice-enabled chatbot using LangChain, OpenAI, and pyttsx3 for text-to-speech 
 
 
 
-1. Install Dependencies
+ 
+ 1. Install Dependencies
 
     pip install -r requirements.txt
 
- pyttsx3
- langchain
- openai
- python-dotenv
+    pyttsx3
+    langchain
+    openai
+    python-dotenv
 
 2. Set Up Environment Variables
 
@@ -41,9 +42,11 @@ A voice-enabled chatbot using LangChain, OpenAI, and pyttsx3 for text-to-speech 
 
    python voice_bot.py
 
+
+
 Example Usage!!
 
-Voice Bot is ready! Type 'exit' to quit.
+  Voice Bot is ready! Type 'exit' to quit.
 
 Ask me something: What is LangChain?
 
@@ -61,13 +64,6 @@ Troubleshooting:
 
 3. OpenAI API Key Issues
   If you get an error like Invalid API Key, check that your .env file contains the correct API key and that it's being loaded correctly.
-
-
-
-Acknowledgments
-LangChain: A powerful framework for large language model-based applications.
-OpenAI: Provides the GPT-3 API for intelligent chatbot responses.
-pyttsx3: A Python library for text-to-speech synthesis.
 
 
 
