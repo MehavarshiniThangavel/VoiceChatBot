@@ -14,6 +14,14 @@ A voice-enabled chatbot using LangChain, OpenAI, and pyttsx3 for text-to-speech 
 - An OpenAI API key
 - A working microphone and speakers (for text-to-speech output)
 
+  ## File Structure
+
+ langchain_voice_bot/
+ │
+ ├── .env # Environment variables (store your OpenAI API key here)
+ ├── voice_bot.py # Main script to run the voice bot
+ ├── requirements.txt # List of dependencies to install via pip
+
 
 
 
@@ -27,6 +35,7 @@ A voice-enabled chatbot using LangChain, OpenAI, and pyttsx3 for text-to-speech 
  python-dotenv
 
 2. Set Up Environment Variables
+
    OPENAI_API_KEY=your_openai_api_key_here
 
 3. Run the Bot
@@ -38,6 +47,7 @@ Example Usage!!
 Voice Bot is ready! Type 'exit' to quit.
 
 Ask me something: What is LangChain?
+
 Bot: LangChain is a framework for developing applications powered by large language models, enabling easy integration with external tools and data sources.
 
 Troubleshooting:
