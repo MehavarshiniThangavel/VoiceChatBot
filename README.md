@@ -9,12 +9,9 @@ A voice-enabled chatbot using LangChain, OpenAI, and pyttsx3 for text-to-speech 
 - Responses are spoken aloud using the pyttsx3 text-to-speech engine.
 - The bot can be interacted with through text input and outputs via both console and speech.
 
-## Prerequisites
-- Python 3.x
-- An OpenAI API key
-- A working microphone and speakers (for text-to-speech output)
 
-  ## File Structure
+
+ ## File Structure
 
  langchain_voice_bot/
  
